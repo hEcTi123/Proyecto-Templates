@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /*align-items: center;
+  justify-content: center;*/
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+h1 {
+  /*text-align: center;*/
+  padding: 5px;
+  margin: 5px;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+}
+
+.container > .crop {
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+  width: 200px;
+}
+
+input {
+  display: block;
+  /*margin: auto;*/
+  margin: 5px;
+  color: #e75515;
+  background-color: #f7bd56;
+  border: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkedin {
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+.email {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.miNumero {
+  padding-left: 43px;
+  padding-right: 43px;
+}
+
+img.imagenFooter {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+input.linkedin:hover {
+  background-color: lightblue;
+}
+
+input.email:hover {
+  background-color: lightblue;
+}
+
+input.trabajos:hover {
+  background-color: lightblue;
+}
+
+input.miNumero:hover {
+  background-color: lightblue;
+}
